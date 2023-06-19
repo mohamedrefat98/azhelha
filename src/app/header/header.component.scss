@@ -1,0 +1,63 @@
+// ----> navbar styles <----
+
+.navbar {
+  z-index: 100000000000;
+  background-color: rgba(255, 255, 255) ;
+}
+
+
+.nav-link {
+  font-family: 'Almarai' !important;
+  font-weight: 600;
+  color: #220000 !important;
+  font-size: 18px;
+  transition: all 0.2s ease-in;
+}
+.nav-link:hover {
+  color: #FF0000
+ !important;
+}
+
+.nav-item .active {
+  color: #FF0000
+ !important;
+}
+.lang-btn{
+  background:#FF0000;
+  color: #220000;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 3px 6px;
+}
+.contact-link{
+  background-color: #220000;
+  border-radius: 20px;
+  margin: 0   40px;
+  .nav-link{
+    color: #ebf9ff !important;
+  }
+}
+.navbar-nav{
+  padding-right: 100px;
+}
+
+// for mobile
+@media only screen and (max-width: 992px) {
+  .nav-logo {
+    width: 85px !important;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .navbar-nav{
+    padding: 0px !important;
+  }
+
+  .navbar {
+    border-radius: 0px 0px 8px 8px !important;
+    width: 100%;
+  }
+  .contact-link {
+    margin: 10px  !important;
+  }
+}

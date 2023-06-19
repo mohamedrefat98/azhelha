@@ -1,0 +1,33 @@
+.service-brn{
+  padding:10px 28px;
+  border-radius: 30px;
+  background-color: #ff0000;
+  color:white;
+  border: 0;
+  font-size: 18px;
+
+}
+
+.section-header{
+  width: 440px;
+  height: 165px;
+  margin: auto;
+  font-size: 40px;
+  text-align: center;
+  background-image: url('../assets/shared/header-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 140px;
+  @media only screen and (max-width:772px){
+    width: 210px;
+    height: 105px;
+    line-height: 87px;
+    font-size: 26px;
+  }
+}
+
+.pink-bg{
+  background: #F9D8D8;
+}
+
